@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Schooly | Student Learning Resource Platform</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+<!-- header -->
+    <header class="site-header">
+        <div class="brand">
+            <h1>Schooly</h1>
+            <p>Study Portal</p>
+        </div>
+
+        <!-- Navigation Menu -->
+        <nav class="main-nav" aria-label="Primary Navigation">
+            <ul>
+                <li><a href="#courses">Modules</a></li>
+                <li><a href="#multimedia">Lectures</a></li>
+                <li><a href="#materials">Study Guides</a></li>
+                <li><a href="#announcements">Notices</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="layout-container">
+        
+        <main class="main-content">
+            
+            <!-- Hero / Introduction Section -->
+            <section class="hero-section">
+                <h2>Welcome to Your Schooly</h2>
+                <p>Access curated lecture notes, recorded coding workshops, audio summaries, and reference materials designed to help you  in your semester modules.</p>
+                <a href="#courses" class="btn-primary">Explore Modules</a>
+            </section>
+
+            <section id="courses" class="content-section">
+                <h2>Core Semester Modules</h2>
+                <div class="card-grid">
+                    
+                    <article class="card featured-card">
+                        <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?auto=format&fit=crop&w=600&q=80" alt="Laptop displaying HTML and CSS source code on a desk">
+                        <div class="card-body">
+                            <span class="badge">5CS045</span>
+                            <h3>Full Stack Web Development</h3>
+                            <p>Master semantic HTML5, modern CSS Grid &amp; Flexbox layouts, JavaScript fundamentals, and server deployment workflows.</p>
+                            <a href="#multimedia" class="card-link">Watch Week 1 Workshop &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1555949963-ff9fe0c870eb?auto=format&fit=crop&w=600&q=80" alt="screen showing object-oriented programming syntax">
+                        <div class="card-body">
+                            <span class="badge">5CS019</span>
+                            <h3>Object-Oriented Design</h3>
+                            <p>Learn SOLID principles, UML class diagrams, design patterns, and clean software architecture practices.</p>
+                            <a href="#materials" class="card-link">View Notes &rarr;</a>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=600&q=80" alt="Close up of a computer processor circuit board">
+                        <div class="card-body">
+                            <span class="badge">5CS037</span>
+                            <h3> Concepts of technologies and Ai</h3>
+                            <p>Explore the core foundations, tools, and real-world applications of artificial intelligence.</p>
+                            <a href="#materials" class="card-link">View Notes &rarr;</a>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            
+            <section id="multimedia" class="content-section">
+                <h2>Multimedia Learning Lab</h2>
+                
+                
+                <figure class="featured-figure">
+                    <img src="https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=900&q=80" alt="University students collaborating around laptops during a coding workshop">
+                    <figcaption>Figure 1: Peer-to-peer collaborative coding session during the Week 1 responsive design workshop.</figcaption>
+                </figure>
+
+                <div class="media-flex-group">
+                    
+                    <article class="media-box">
+                        <h3>Git commit tutorial</h3>
+                        <p>How to git commit and push (to GitHub)</p>
+                        <video controls width="100%" poster="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=600&q=80">
+                            <source src="https://upload.wikimedia.org/wikipedia/commons/a/a3/How_to_git_commit_and_push_%28to_GitHub%29.webm?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=original" type="video/mp4">
+                            Your browser does not support the HTML5 video tag.
+                        </video>
+                    </article>
+
+                    
+                    <article class="media-box">
+                        <h3>Why information technology degree valuable in today's world?</h3>
+                        <p>Importance of the degree </p>
+                        <audio controls>
+                            <source src="Why is an Information Technology degree so valuab.mp3" type="audio/mpeg">
+                            Your browser does not support the HTML5 audio element.
+                        </audio>
+                    </article>
+                </div>
+            </section>
+
+            
+            <section id="materials" class="content-section">
+                <h2>Downloadable Study Guides &amp; Checklists</h2>
+                <ul class="resource-list">
+                    <li>
+                        <strong>HTML5 Semantic Tags Cheat Sheet</strong> — Quick reference guide for structuring accessible web documents. 
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element" target="_blank" rel="noopener">MDN Reference</a>
+                    </li>
+                    <li>
+                        <strong>CSS Flexbox &amp; Grid Visual Guide</strong> — Alignment properties, track sizing, and responsive media query breakpoints. 
+                        <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_grid_layout" target="_blank" rel="noopener">CSS Grid Docs</a>
+                    </li>
+                    
+                </ul>
+            </section>
+
+        </main>
+
+        <aside id="announcements" class="sidebar">
+            <div class="sidebar-widget">
+                <h3>Academic Announcements</h3>
+                <ul class="notice-list">
+                    
+                    <li>
+                        <strong>Library Extended Hours</strong>
+                        <p>The Learning Resource Center is open until 9:00 PM on weekdays for group project work.</p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sidebar-widget">
+                <h3>Quick External Links</h3>
+                <ul class="quick-links">
+                    <li><a href="https://www.w3schools.com/html/" target="_blank" rel="noopener">W3Schools Html Tutorial</a></li>
+                    <li><a href="https://www.w3schools.com/css/" target="_blank" rel="noopener">W3Schools CSS Tutorial</a></li>
+                </ul>
+            </div>
+        </aside>
+
+    </div>
+
+    <!-- Footer (CSS Grid) -->
+    <footer id="footer-info" class="site-footer">
+        <div class="footer-grid">
+            <div>
+                <h3>Schooly</h3>
+                <p>Full Stack Web Development</p>
+            </div>
+            <div>
+                <h4>Navigation</h4>
+                <ul>
+                    <li><a href="#courses">Modules</a></li>
+                    <li><a href="#multimedia">Multimedia Lab</a></li>
+                    <li><a href="#materials">Study Guides</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Campus Support</h4>
+                <p>Herald College Kathmandu<br>Academic Resource Desk</p>
+            </div>
+        </div>
+        <p class="copyright">&copy;  All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
